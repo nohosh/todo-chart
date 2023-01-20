@@ -1,0 +1,166 @@
+h1,
+p {
+  font-family: Lato;
+}
+table {
+  font-family: Arial, Helvetica, sans-serif;
+  border-collapse: collapse;
+  width: 50%;
+  margin-top: 20px;
+  margin: auto;
+//   position: relative;
+}
+
+thead tr th {
+  font-weight: 500;
+  text-align: left;
+  background-color: #fafafa;
+}
+
+tbody tr:nth-child(even) {
+  background-color: #fafafa;
+}
+
+th,
+td {
+  padding: 8px;
+  border: 1px solid darkgray;
+  text-align: center;
+  overflow-wrap: break-word;
+}
+
+.pagination-bar {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+
+
+button{
+    margin: 2px;
+}
+button:hover{
+    
+    cursor: pointer;
+}
+
+.modal{
+  position: absolute;
+  left: 50%;
+  top: 30%;  
+  transform: translate(-50%, -50%);
+  z-index: 5;
+  height: 400px;
+  width: 400px;
+  background-color: #fcba28;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  border: radius 5%;
+  box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+}
+.modal > button {
+  float: right;
+}
+.filter-search{
+  width: 50%;
+    margin: auto;
+    text-align: right;
+}
+
+.filter{
+  width: 50%;
+  margin: auto;
+  text-align: left;
+}
+
+form{
+    display: flex;
+    height: 85%;
+    width: 80%;
+    margin: auto;
+    flex-direction: column;
+    margin-top: 20px; 
+}
+
+.modal p span {
+  color: white;
+  font-size: x-large;
+}
+
+.modal p {
+  color: white;
+  font-size: x-large;
+}
+
+.modal p b {
+  color: black;
+}
+
+.modal > form > button{
+  width: 40%;
+  margin: auto;
+  background-color: blue;
+  color:  white;
+  height: 30px;
+  border-radius: 5%;
+  margin-top: 20%;
+}
+
+
+.modal > form > button:hover{
+  background-color: crimson;
+}
+
+
+.add-todo{
+  width: 50%;
+  margin: auto;
+  text-align: right;
+
+  button{
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    width: 50px;
+    border-radius: 5px;
+  }
+
+}
+
+
+.add-todo button:hover{
+  background-color:#fcba28;
+}
+
+.error{
+  font-size: small;
+  color: red;
+}
+.add-checkBox{
+  text-align: left;
+}
+.add-checkBox input:hover{
+  cursor: pointer;
+
+}
+
+.chart-container{
+  width: 50%;
+  margin: auto
+}
+.edit-check{
+  text-align: left;
+  margin-bottom: 30px;
+}
+.btn-toggle{
+  height: 40px;
+  padding: 10px 20px;
+  background-color: #fcba28;
+  color: black;
+  border-radius: 5px;
+}
+
+.btn-toggle:hover{
+  color:  white;
+}
